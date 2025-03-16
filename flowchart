@@ -1,0 +1,13 @@
+digraph "System Architecture" {
+	A [label="Sensors (BP, HR, Oxygen, etc.)"]
+	B [label="ESP32 Microcontroller"]
+	C [label="Cloud Services (Firebase)"]
+	D [label="IoT Platforms (Blynk, ThingsBoard)"]
+	E [label="Mobile Apps / User Interface"]
+	F [label="Voice Assistants (Alexa, Google)"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	D -> F
+}
